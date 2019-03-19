@@ -127,7 +127,7 @@ hdfs dfs -cp mnist/csv2/train/part-* stream_data
 
 ※ `permission error` 발생 시, `--model mnist_model` 경로를 `--model /user/$(whoami)/mnist_model`로 변경
 
-###4.1 종료
+### 4.1 종료
 학습 및 `Spark streaming`을 종료시키려면 아래처럼 `stop_streaming.sh` 을 실행시킵니다.
 Reservation Port, Host 는 `SparkUI`상의 `dirver log`를 통해 확인할 수 있습니다.
 
